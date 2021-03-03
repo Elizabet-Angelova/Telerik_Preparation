@@ -1,0 +1,102 @@
+body {
+    font-family: Helvetica;
+    background-color: rgb(80, 80, 80) !important;
+    font-size: 16px;
+    padding: 30px; 
+  }
+  
+ #wrapper {
+    margin-top: 8px;
+    background-color: #E6E6E6;
+    width: 21.5vw;
+    height: 86vh;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+  }
+  
+ div > img {
+    width: 230px;
+    height: 230px;
+    border: 2px solid white;
+    border-radius: 200px;
+  }
+
+  #main-info h1 {
+      color: black;
+      font-weight: bold;
+      font-size: 1.65rem;
+      padding-top: 0.5rem;
+      margin: 0;
+  }
+
+  #main-info h2 {
+    font-size: 1.3rem;
+    font-weight: 550;
+    padding-bottom: 0.2rem; 
+    margin: 0;
+    color: grey;
+  }
+
+  #label {
+      display: inline-block;
+      font-size: 0.7rem;
+      background-color: #6CC644;
+      border-radius: 2px;
+      padding-left: 0.1rem;
+      padding-right: 0.15rem;
+      font-weight: 500;
+      color: white;
+  }
+
+  #main-info a {
+      display: inline-block;
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: #69B9E1;
+  }
+
+
+  #details {
+      border-top: 2px solid white;
+      border-bottom: 2px solid white;
+      padding: 0.35rem;
+      margin: 0.4rem;
+  }
+
+ .octicon {
+      display: inline;
+      color: #ACA9AB;
+  }
+
+#details p {
+    display: inline;
+    font-size: 0.9rem;
+   padding: 0.2rem;
+  line-height: 1.7rem;
+}
+
+#details a {
+    color: #69B9E1;   
+  }
+
+  #git-info div {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: bold;
+    color: #BEB0A6;
+    line-height: 1.5rem;
+    padding: 0.5rem 0.5rem 0rem 0.5rem;
+  }
+
+  #git-info span {
+    display: block;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #4078C0;
+    
+  }
+
+  #git-info {
+    border-bottom: 2px solid white;
+  }

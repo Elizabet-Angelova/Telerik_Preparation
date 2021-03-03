@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Betty's ToDo App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container-fluid main p-0">
+        <div class="overlay">
+
+            <h3 class="title">BETTY'S TODOS</h3>
+            <div class="row pt-4 shady col-md-10 col-sm-12 col-xs-12 mx-auto justify-content-center">
+                <div class="col-md-5 col-sm-12 col-xs-12 trys">
+                    <input id="inputToDo" class="form-control form-control-lg" type="text" placeholder="TODO...">
+                </div>
+                <div class="col-md-4 col-sm-12 col-xs-12 trys">
+                    <input id="inputDate" class="form-control form-control-lg" type="date" placeholder="DUE DATE">
+                </div>
+                <div class="col-md-2 col-sm-12 col-xs-12 trys">
+                    <button id="addBtn" class="add">ADD</button>
+                </div>
+            </div>
+
+
+
+            <div id="toDoContainer" class="container-todos col-md-10 col-sm-12 col-xs-12 mx-auto justify-content-center">
+                <h2 class="title pb-4">TODOS:</h2>
+                <!-- <div class="row todo-item">
+                    <div class="col-md-2 col-sm-2 trys2"><input type="checkbox" id="checkbox"></div>
+                    <div class="col-md-5 col-sm-5 trys2 todo-list">Buy toothpaste</div>
+                    <div class="col-md-3 col-sm-3 trys2 todo-list">09/05/2020</div>
+                    <div class="col-md-2 col-sm-2 trys2"><i id="trashIcon" class="far fa-trash-alt"></i></div>
+                </div>
+                <div class="row todo-item">
+                    <div class="col-md-2 col-sm-2 trys2"><input type="checkbox" id="checkbox"></div>
+                    <div class="col-md-5 col-sm-5 trys2 todo-list">Finish in home activity</div>
+                    <div class="col-md-3 col-sm-3 trys2 todo-list">12/05/2020</div>
+                    <div class="col-md-2 col-sm-2 trys2"><i id="trashIcon" class="far fa-trash-alt"></i></div>
+                </div> -->
+                <!-- <div class="row todo-item">
+                    <div class="col-md-2 col-sm-2 trys2"><input type="checkbox" id="checkbox"></div>
+                    <div class="col-md-5 col-sm-5 trys2 todo-list">Make nail appointment</div>
+                    <div class="col-md-3 col-sm-3 trys2 todo-list">09/15/2020</div>
+                    <div class="col-md-2 col-sm-2 trys2"><i id="trashIcon" class="far fa-trash-alt"></i></div>
+                </div> -->
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="./functionality.js"></script>
+    <script src="https://kit.fontawesome.com/6fc0987e9f.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

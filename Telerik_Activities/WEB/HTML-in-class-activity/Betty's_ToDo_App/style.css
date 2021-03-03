@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+2|Comfortaa:300|Eagle+Lake|Fahkwang:300|Satisfy&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --Baloo: "Baloo 2", cursive;
+    --EagleLake: "Eagle Lake", cursive;
+    --Fahkwang: "Fahkwang", cursive;
+    --Comforta: "Comfortaa", cursive;
+    --Satisfy: "Satisfy", cursive;
+}
+
+.main {
+    background: url(./white.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    text-align: center;
+    justify-content: center;
+}
+
+.overlay {
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 1));
+    padding: 6%
+}
+
+.title {
+    font-family: var(--Comforta);
+    color: white;
+    letter-spacing: 0.9rem;
+    line-height: 3rem;
+    padding-bottom: 1.7rem;
+}
+
+.trys {
+    height: 13vh;
+    padding: 3vh;
+}
+
+
+.form-control {
+    height: 100% !important;
+    width: 100% !important;
+    color: grey;
+    font-family: var(--Comforta);
+    background-color: transparent !important;
+    border: none !important;
+    border-radius: 0px !important;
+    box-shadow: 0 0 90px rgba(255, 255, 255, 0.55);
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="date"]:focus {   
+  border-color:transparent;
+  box-shadow: 0 0 90px rgba(255, 255, 255, 0.95);
+  outline: none;
+  color: white;
+}
+
+.add:focus {
+    outline: none;
+}
+
+.add {
+    height: 100% !important;
+    width: 100% !important;
+    background-color: transparent !important;
+    border: none !important;
+    border-radius: 0px !important;
+    color: white;
+    font-family: var(--Comforta);
+    font-weight: bolder;
+    box-shadow: 0 0 90px rgba(255, 255, 255, 0.8);
+    transition: box-shadow, 0.2s ease-in-out;
+}
+
+
+.add:hover {   
+  border-color:transparent;
+  box-shadow: 0 0 70px rgba(255, 255, 255, 1);
+  outline: 0 none;
+}
+
+.container-todos {
+    background: rgba(53, 2, 2, 0.35);
+    box-shadow: 0 0 50px rgba(53, 2, 2, 0.7);
+    margin-top: 5rem;
+    min-height: 50vh;
+    padding-top: 0.8rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+#checkbox {
+  height: 1.2rem;
+  width: 1.2rem;
+  opacity: 0.5;
+  transition: ease-in-out 0.15s;
+}
+
+#checkbox:hover {
+    height: 1.2rem;
+    width: 1.2rem;
+    cursor: pointer;
+    box-shadow: 0 0 50px white;
+  }
+
+.todo-list {
+    font-family: var(--Comforta);
+    letter-spacing: 0.1rem;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.9rem;
+    line-height: 1rem;
+    padding-top: 0.5rem;
+}
+
+.fa-trash-alt {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.6);
+  transition: ease-in-out 0.15s;
+}
+
+.fa-trash-alt:hover {
+    color: rgb(128, 0, 0);
+    font-size: 1.3rem;
+    cursor: pointer;
+  }
+
+.todo-item {
+    padding: 0.7rem;
+}

@@ -1,0 +1,18 @@
+{
+  "name": "in-home-activity",
+  "version": "1.0.0",
+  "description": "<img src=\"https://webassets.telerikacademy.com/images/default-source/logos/telerik-academy.svg)\" alt=\"logo\" width=\"300px\" style=\"margin-top: 20px;\"/>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "myProject": "node index.js"
+    
+  },
+  "keywords": [],
+  "author": "Elizabeth",
+  "license": "MIT",
+  "dependencies": {
+    "is-number": "^7.0.0",
+    "lodash": "^4.17.15"
+  }
+}
